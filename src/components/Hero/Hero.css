@@ -1,0 +1,42 @@
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero .left {
+    padding: 1rem 0;
+}
+
+.hero h1 {
+    padding: 1rem 0;
+}
+
+.hero .input_container {
+    padding: 1rem 0;
+}
+
+.hero .right {
+    padding: 1rem 0;
+}
+
+.hero .image_container {
+    width: 100%;
+    display: flex;
+}
+
+.hero img {
+    max-width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+    
+}

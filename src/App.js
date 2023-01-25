@@ -1,9 +1,19 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Featured from './components/Featured/Featured';
+import Signup from './components/Signup/Signup';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Navbar/>
+      <Hero/>
+      <Featured/>
+      <Signup/>
+      <Footer/>
+    </>
   );
 }
 

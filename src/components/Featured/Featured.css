@@ -1,0 +1,55 @@
+.featured {
+    width: 100%;
+    padding: 8rem 0;
+    background-color: var(--background);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+
+.featured .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.featured .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.featured p {
+    margin: 1rem 0;
+}
+
+.featured .left .btn {
+    align-self: flex-start;
+}
+
+.featured .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.green {
+    color: var(--primary);
+}
+
+.red {
+    color: red;
+}
+
+@media screen and (max-width:800px) {
+    .featured .container {
+        grid-template-columns: 1fr;
+    }
+
+    .featured .left .btn {
+        align-self: center;
+
+    }
+    
+}
+
