@@ -4,7 +4,7 @@ import heroBg from '../../assets/hero.jpg';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id='home'>
         <div className="container">
             <div className="left">
                 <p>Buy $ Sell Cyrpto 24/7 seemlessly</p>
